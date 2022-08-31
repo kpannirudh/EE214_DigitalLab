@@ -1,0 +1,257 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/simulation/modelsim
+Eand_3
+Z1 w1660818491
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/PrimeNumber.vhdl
+Z5 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/PrimeNumber.vhdl
+l0
+L16 1
+Vi?hmPEiW3N<=9Z1h=_C_E3
+!s100 HZ<Sl;YN^3DhTi;g3;aHb0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1660819185
+!i10b 1
+Z8 !s108 1660819185.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/PrimeNumber.vhdl|
+Z10 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/PrimeNumber.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Astruct1
+R2
+R3
+DEx4 work 5 and_3 0 22 i?hmPEiW3N<=9Z1h=_C_E3
+!i122 0
+l21
+L20 4
+Vz^OPN5FDz`A5kcWJ9M<Ud3
+!s100 JF5`PE<97UlO[zJHJA?Mm3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1660819149
+R2
+R3
+!i122 1
+R0
+Z14 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/DUT.vhdl
+Z15 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/DUT.vhdl
+l0
+L7 1
+V4[eaf10?0zXNJJ>Hea9Rj0
+!s100 gRR7AO1Icc3fS>9>iQPT]3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/DUT.vhdl|
+Z17 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 4[eaf10?0zXNJJ>Hea9Rj0
+!i122 1
+l16
+L12 17
+V:ROK`FIVdV94BJ9^_X1D@1
+!s100 l>7oF[4`TZ5>iNiZ9_3_J2
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Einv
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L28 1
+V@MCJnM?lZE4==m;Gi37TE1
+!s100 b6o3bT_@ECCWWn1Sh7M5f1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Astruct3
+R2
+R3
+DEx4 work 3 inv 0 22 @MCJnM?lZE4==m;Gi37TE1
+!i122 0
+l33
+L32 4
+VVE8B8V`>Le]LR1IjjR^bY2
+!s100 JaLfc5^;[4mEOG>bZKb=O3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eor_4
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L4 1
+VDRnVWAGd9KG=X3]0^8^h@3
+!s100 CT`669UCb`NLmCXcON_TV3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 4 or_4 0 22 DRnVWAGd9KG=X3]0^8^h@3
+!i122 0
+l9
+L8 4
+Vc?D^4j][bh04Rhz8NPc`f0
+!s100 `5;`5;IelJj9D`RdM2o^:1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eprimenumber
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L40 1
+VfI>KF7M57[=68ak2BB@T<1
+!s100 MMH<5nCY:DZF^V?U0eT963
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Astruct2
+R2
+R3
+DEx4 work 11 primenumber 0 22 fI>KF7M57[=68ak2BB@T<1
+!i122 0
+l55
+L44 21
+VC:Lh4e25[JWhQ:@f[jzdn2
+!s100 d<4M8o7K?103[L36?^V5>3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z18 w1660818353
+R3
+R2
+!i122 2
+R0
+Z19 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl
+Z20 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z21 !s110 1660819186
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl|
+!s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+V;fDJ]L`W<dI@N0FiKz=nP1
+!s100 ^]_;gNCDc]M;9Wo6lXIiN2
+R6
+31
+R21
+!i10b 1
+R8
+R22
+Z23 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl|
+!i113 1
+R11
+R12

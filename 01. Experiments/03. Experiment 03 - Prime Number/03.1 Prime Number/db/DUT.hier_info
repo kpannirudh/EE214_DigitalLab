@@ -1,0 +1,73 @@
+|DUT
+input_vector[0] => PrimeNumber:add_instance.D
+input_vector[1] => PrimeNumber:add_instance.C
+input_vector[2] => PrimeNumber:add_instance.B
+input_vector[3] => PrimeNumber:add_instance.A
+output_vector[0] << PrimeNumber:add_instance.O
+
+
+|DUT|PrimeNumber:add_instance
+A => INV:INV1.A
+B => INV:INV2.A
+B => AND_3:AND4.A
+C => INV:INV3.A
+C => AND_3:AND1.C
+C => AND_3:AND2.B
+C => AND_3:AND3.B
+D => AND_3:AND2.C
+D => AND_3:AND3.C
+D => AND_3:AND4.C
+O <= OR_4:OR1.O
+
+
+|DUT|PrimeNumber:add_instance|INV:INV1
+A => O.DATAIN
+O <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|INV:INV2
+A => O.DATAIN
+O <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|INV:INV3
+A => O.DATAIN
+O <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|AND_3:AND1
+A => O.IN0
+B => O.IN1
+C => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|AND_3:AND2
+A => O.IN0
+B => O.IN1
+C => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|AND_3:AND3
+A => O.IN0
+B => O.IN1
+C => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|AND_3:AND4
+A => O.IN0
+B => O.IN1
+C => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PrimeNumber:add_instance|OR_4:OR1
+A => O.IN0
+B => O.IN1
+C => O.IN1
+D => O.IN1
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+

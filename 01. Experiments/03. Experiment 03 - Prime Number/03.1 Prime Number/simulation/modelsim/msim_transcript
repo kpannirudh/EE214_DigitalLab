@@ -1,0 +1,76 @@
+# Reading pref.tcl
+# do DUT_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/PrimeNumber.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:09:45 on Aug 18,2022
+# vcom -reportprogress 300 -93 -work work G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/PrimeNumber.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity OR_4
+# -- Compiling architecture Struct of OR_4
+# -- Compiling entity AND_3
+# -- Compiling architecture Struct1 of AND_3
+# -- Compiling entity INV
+# -- Compiling architecture Struct3 of INV
+# -- Compiling entity PrimeNumber
+# -- Compiling architecture Struct2 of PrimeNumber
+# End time: 16:09:45 on Aug 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/DUT.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:09:45 on Aug 18,2022
+# vcom -reportprogress 300 -93 -work work G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/DUT.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity DUT
+# -- Compiling architecture DutWrap of DUT
+# End time: 16:09:45 on Aug 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vcom -93 -work work {G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:09:45 on Aug 18,2022
+# vcom -reportprogress 300 -93 -work work G:/My Drive/Insti Material/03. Sem 3/01. EE214/01. Experiments/03. Experiment 03 - Prime Number/Testbench.vhdl 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Testbench
+# -- Compiling architecture Behave of Testbench
+# End time: 16:09:46 on Aug 18,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs="+acc"  Testbench
+# vsim -t 1ps -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L fiftyfivenm -L rtl_work -L work -voptargs=""+acc"" Testbench 
+# Start time: 16:09:46 on Aug 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.testbench(behave)
+# Loading work.dut(dutwrap)
+# Loading work.primenumber(struct2)
+# Loading work.inv(struct3)
+# Loading work.and_3(struct1)
+# Loading work.or_4(struct)
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: SUCCESS, all tests passed.
+#    Time: 304 ns  Iteration: 0  Instance: /testbench
+# End time: 16:11:40 on Aug 18,2022, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
