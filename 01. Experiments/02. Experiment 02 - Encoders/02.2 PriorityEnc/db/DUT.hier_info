@@ -1,0 +1,66 @@
+|DUT
+input_vector[0] => PriorityEnc:add_instance.D
+input_vector[1] => PriorityEnc:add_instance.C
+input_vector[2] => PriorityEnc:add_instance.B
+input_vector[3] => PriorityEnc:add_instance.A
+output_vector[0] <= PriorityEnc:add_instance.V
+output_vector[1] <= PriorityEnc:add_instance.Y0
+output_vector[2] <= PriorityEnc:add_instance.Y1
+
+
+|DUT|PriorityEnc:add_instance
+A => OR_2:OR1.A
+A => OR_2:OR2.A
+A => OR_2:OR4.A
+B => OR_2:OR1.B
+B => INVERTER:INV1.A
+B => OR_2:OR4.B
+C => AND_2:AND1.B
+C => OR_2:OR3.A
+D => OR_2:OR3.B
+Y1 <= OR_2:OR1.Y
+Y0 <= OR_2:OR2.Y
+V <= OR_2:OR5.Y
+
+
+|DUT|PriorityEnc:add_instance|OR_2:OR1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PriorityEnc:add_instance|INVERTER:INV1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PriorityEnc:add_instance|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PriorityEnc:add_instance|OR_2:OR2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PriorityEnc:add_instance|OR_2:OR3
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PriorityEnc:add_instance|OR_2:OR4
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|PriorityEnc:add_instance|OR_2:OR5
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
