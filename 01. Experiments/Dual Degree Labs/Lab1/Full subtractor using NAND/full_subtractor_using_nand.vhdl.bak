@@ -1,0 +1,11 @@
+library ieee;
+use ieee.std_logic_1164.all;
+library work;
+use work.Gates.all;
+
+entity full_subtractor_using_nand is
+  port (A,B,C : in std_logic; DIFF,BOR : out std_logic);
+end entity full_subtractor_using_nand;
+
+architecture Struct of full_subtractor_using_nand is
+  

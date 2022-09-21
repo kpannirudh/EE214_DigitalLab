@@ -1,0 +1,134 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/IITB 3rd Semester/EE214/Lab6/ALU/simulation/modelsim
+Ealu
+Z1 w1662722121
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8C:/IITB 3rd Semester/EE214/Lab6/ALU/alu.vhdl
+Z5 FC:/IITB 3rd Semester/EE214/Lab6/ALU/alu.vhdl
+l0
+L4 1
+V:FUXn9O9gZ8bZZzG9o=Wn3
+!s100 =eNLBoWaI1b<Wenmd?6BS0
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1662722769
+!i10b 1
+Z8 !s108 1662722769.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/IITB 3rd Semester/EE214/Lab6/ALU/alu.vhdl|
+Z10 !s107 C:/IITB 3rd Semester/EE214/Lab6/ALU/alu.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Aa1
+R2
+R3
+DEx4 work 3 alu 0 22 :FUXn9O9gZ8bZZzG9o=Wn3
+!i122 1
+l98
+L13 106
+ViOUg5WT<>0KKHb5MZ>onh0
+!s100 :`3bDRNohdEJ5?<S91=oH1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1662717164
+R2
+R3
+!i122 0
+R0
+Z14 8C:/IITB 3rd Semester/EE214/Lab6/ALU/DUT.vhdl
+Z15 FC:/IITB 3rd Semester/EE214/Lab6/ALU/DUT.vhdl
+l0
+L7 1
+V1m[FAQGLFWHTT[2EEI8Jm2
+!s100 LIZjEZYk2?d;4O4]RmK[R2
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|C:/IITB 3rd Semester/EE214/Lab6/ALU/DUT.vhdl|
+Z17 !s107 C:/IITB 3rd Semester/EE214/Lab6/ALU/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 1m[FAQGLFWHTT[2EEI8Jm2
+!i122 0
+l21
+L12 32
+VIj[3`3A<?Y^Ej`GTf08oV0
+!s100 G0eMLCY49_ZzL3N_cIac=0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Etestbench
+Z18 w1662717172
+R3
+R2
+!i122 2
+R0
+Z19 8C:/IITB 3rd Semester/EE214/Lab6/ALU/Testbench.vhdl
+Z20 FC:/IITB 3rd Semester/EE214/Lab6/ALU/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R8
+Z21 !s90 -reportprogress|300|-93|-work|work|C:/IITB 3rd Semester/EE214/Lab6/ALU/Testbench.vhdl|
+!s107 C:/IITB 3rd Semester/EE214/Lab6/ALU/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+V=l3F:1>OPGFI`j9zzVHbJ3
+!s100 >DW1hT;MPQ0XIMzVhA?om0
+R6
+31
+R7
+!i10b 1
+R8
+R21
+Z22 !s107 C:/IITB 3rd Semester/EE214/Lab6/ALU/Testbench.vhdl|
+!i113 1
+R11
+R12

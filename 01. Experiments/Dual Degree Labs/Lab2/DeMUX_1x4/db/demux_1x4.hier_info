@@ -1,0 +1,99 @@
+|DUT
+input_vector[0] => demux_1x4:add_instance.D
+input_vector[1] => demux_1x4:add_instance.S1
+input_vector[2] => demux_1x4:add_instance.S2
+output_vector[0] <= demux_1x4:add_instance.I0
+output_vector[1] <= demux_1x4:add_instance.I1
+output_vector[2] <= demux_1x4:add_instance.I2
+output_vector[3] <= demux_1x4:add_instance.I3
+
+
+|DUT|demux_1x4:add_instance
+S2 => demux:demux1.S
+S1 => demux:demux2.S
+S1 => demux:demux3.S
+D => demux:demux1.D
+I0 <= demux:demux2.I_o
+I1 <= demux:demux2.I_1
+I2 <= demux:demux3.I_o
+I3 <= demux:demux3.I_1
+
+
+|DUT|demux_1x4:add_instance|demux:demux1
+S => INVERTER:NOT1.A
+S => AND_2:AND2.A
+D => AND_2:AND1.B
+D => AND_2:AND2.B
+I_o <= AND_2:AND1.Y
+I_1 <= AND_2:AND2.Y
+
+
+|DUT|demux_1x4:add_instance|demux:demux1|INVERTER:NOT1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux1|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux1|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux2
+S => INVERTER:NOT1.A
+S => AND_2:AND2.A
+D => AND_2:AND1.B
+D => AND_2:AND2.B
+I_o <= AND_2:AND1.Y
+I_1 <= AND_2:AND2.Y
+
+
+|DUT|demux_1x4:add_instance|demux:demux2|INVERTER:NOT1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux2|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux2|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux3
+S => INVERTER:NOT1.A
+S => AND_2:AND2.A
+D => AND_2:AND1.B
+D => AND_2:AND2.B
+I_o <= AND_2:AND1.Y
+I_1 <= AND_2:AND2.Y
+
+
+|DUT|demux_1x4:add_instance|demux:demux3|INVERTER:NOT1
+A => Y.DATAIN
+Y <= A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux3|AND_2:AND1
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DUT|demux_1x4:add_instance|demux:demux3|AND_2:AND2
+A => Y.IN0
+B => Y.IN1
+Y <= Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
