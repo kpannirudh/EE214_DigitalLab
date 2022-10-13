@@ -1,0 +1,17 @@
+|DUT
+input_vector[0] => fsm_behav:add_instance.A
+input_vector[1] => fsm_behav:add_instance.clock
+input_vector[2] => fsm_behav:add_instance.reset
+output_vector[0] <= fsm_behav:add_instance.y
+
+
+|DUT|fsm_behav:add_instance
+clock => ps_state~1.DATAIN
+reset => ps_state~3.DATAIN
+A => nx_state.init.DATAB
+A => nx_state.s01.DATAB
+A => nx_state.s011.DATAB
+A => ps_state.s0.DATAIN
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

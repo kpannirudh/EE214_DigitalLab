@@ -1,0 +1,238 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/simulation/modelsim
+Edff_reset
+Z1 w1664445918
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z4 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/SeqGen.vhdl
+Z5 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/SeqGen.vhdl
+l0
+L32 1
+VWmTUY:Offn`:kTDemWGSI1
+!s100 PFO@iKIe3@>G5Wj[iZO2W3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1664446185
+!i10b 1
+Z8 !s108 1664446185.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/SeqGen.vhdl|
+Z10 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/SeqGen.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R2
+R3
+DEx4 work 9 dff_reset 0 22 WmTUY:Offn`:kTDemWGSI1
+!i122 0
+l37
+L36 11
+VkAEJDQCM0joYj0zN<Wk8D3
+!s100 8K:;mJ[BFKTP?JnTNMm?X1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edff_set
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L13 1
+VBFjbn5lFBFJlfXRI=zD>[3
+!s100 A3Tfe2k_l`na<MJhF=D?S3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehav
+R2
+R3
+DEx4 work 7 dff_set 0 22 BFjbn5lFBFJlfXRI=zD>[3
+!i122 0
+l17
+L16 11
+V<Ii;FBGhbZ[PK;1UcHiZW3
+!s100 ZHR0z]dEB?5KT@h0:0mKf1
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edut
+Z13 w1664445529
+R2
+R3
+!i122 1
+R0
+Z14 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/DUT.vhdl
+Z15 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/DUT.vhdl
+l0
+L7 1
+V86:JQHibkiI]_8g=d]io53
+!s100 d1:GN;^H<kTI8lz9nb_0:3
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/DUT.vhdl|
+Z17 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/DUT.vhdl|
+!i113 1
+R11
+R12
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 86:JQHibkiI]_8g=d]io53
+!i122 1
+l17
+L12 18
+V2mOegJD??iUPTzEiz5?Qi2
+!s100 5Sif<T3^IbZ04`G26K68j0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12
+Pflipflops
+R2
+R3
+!i122 0
+R1
+R0
+R4
+R5
+l0
+L3 1
+V<B[@b31IaHo;^iHaN2:Cm0
+!s100 DOe:b7AGBQTBz1c5JgcHM3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Esequence_generator_stru_dataflow
+R1
+R2
+R3
+!i122 0
+R0
+R4
+R5
+l0
+L52 1
+V3cQ<:J>:zdF0VmkonB7o`1
+!s100 6=8P6M1nPd<`7[;DlF<cF3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Astruct
+R2
+R3
+DEx4 work 32 sequence_generator_stru_dataflow 0 22 3cQ<:J>:zdF0VmkonB7o`1
+!i122 0
+l64
+L57 21
+Ve:o8Z5d=Z<<8153T>;;aG2
+!s100 5[>]Gm[ZLWMiLL[N`VRO23
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z18 w1664444850
+R3
+R2
+!i122 2
+R0
+Z19 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/Testbench.vhdl
+Z20 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+Z21 !s110 1664446186
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/Testbench.vhdl|
+!s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+V>]NX9`dln_bCgbc9;YCoW0
+!s100 [Ac[M2SOdaeGIlfL>LBlY1
+R6
+31
+R21
+!i10b 1
+R8
+R22
+Z23 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/06. Experiment 07 - Sequence Generator/07.1 SeqGen/Testbench.vhdl|
+!i113 1
+R11
+R12

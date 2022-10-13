@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/simulation/modelsim
+Edut
+Z1 w1665050536
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z4 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/DUT.vhdl
+Z5 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/DUT.vhdl
+l0
+L7 1
+Vbh06LOj0`0CGOaPeWR85R3
+!s100 EcY?:OJ;5_BmJ<Ehch1f@3
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1665050983
+!i10b 1
+Z8 !s108 1665050983.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/DUT.vhdl|
+Z10 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/DUT.vhdl|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Adutwrap
+R2
+R3
+DEx4 work 3 dut 0 22 bh06LOj0`0CGOaPeWR85R3
+!i122 1
+l18
+L12 20
+VF4fg08LS=NbP_lOR0DOFJ1
+!s100 XbZ4km^jGb5[d4ETHChR:3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etestbench
+Z13 w1665050148
+R3
+R2
+!i122 2
+R0
+Z14 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/Testbench.vhdl
+Z15 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/Testbench.vhdl
+l0
+L7 1
+V]iKK_Z9L:G9B:i8c]3eFH0
+!s100 bWf8kl8zb90X@P1m>V^K20
+R6
+31
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/Testbench.vhdl|
+!s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/Testbench.vhdl|
+!i113 1
+R11
+R12
+Abehave
+R3
+R2
+DEx4 work 9 testbench 0 22 ]iKK_Z9L:G9B:i8c]3eFH0
+!i122 2
+l69
+L9 132
+VlTW:OIfQ=ZZU>;bfd9CUM3
+!s100 7`z[m?74>EALnS9o8F4Xm0
+R6
+31
+R7
+!i10b 1
+R8
+R16
+Z17 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/Testbench.vhdl|
+!i113 1
+R11
+R12
+Eword_detection
+Z18 w1665050939
+Z19 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 0
+R0
+Z20 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/StringDet.vhdl
+Z21 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/StringDet.vhdl
+l0
+L5 1
+V6ohDL3SCR:I6aOOPO=]RR2
+!s100 B4^fXlG>=SNU^m=C@LO?F2
+R6
+31
+R7
+!i10b 1
+R8
+Z22 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/StringDet.vhdl|
+Z23 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/08. Experiment 08 - Multiple String Detector/08.1 StringDet/StringDet.vhdl|
+!i113 1
+R11
+R12
+Abhv
+R19
+R2
+R3
+DEx4 work 14 word_detection 0 22 6ohDL3SCR:I6aOOPO=]RR2
+!i122 0
+l21
+L11 162
+V;k1LMl@578J>7bem6f<]A2
+!s100 <V?KkmBVabhbcRK9Y]1mI1
+R6
+31
+R7
+!i10b 1
+R8
+R22
+R23
+!i113 1
+R11
+R12

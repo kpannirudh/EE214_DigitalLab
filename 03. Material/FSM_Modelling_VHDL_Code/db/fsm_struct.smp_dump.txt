@@ -1,0 +1,7 @@
+
+State Machine - |DUT|fsm_behav:add_instance|ps_state
+Name ps_state.s011 ps_state.s01 ps_state.s0 ps_state.init 
+ps_state.init 0 0 0 0 
+ps_state.s0 0 0 1 1 
+ps_state.s01 0 1 0 1 
+ps_state.s011 1 0 0 1 
