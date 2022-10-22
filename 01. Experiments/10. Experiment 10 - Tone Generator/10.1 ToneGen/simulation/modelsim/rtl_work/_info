@@ -1,0 +1,95 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/simulation/modelsim
+Etone_generator
+Z1 w1666257340
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator.vhdl
+Z6 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator.vhdl
+l0
+L5 1
+VYUId7j6e_04]QWVU`<fYd2
+!s100 VNnESe2Y4o>_bm73@OE0I3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1666257589
+!i10b 1
+Z9 !s108 1666257589.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator.vhdl|
+Z11 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator.vhdl|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R2
+R3
+R4
+DEx4 work 14 tone_generator 0 22 YUId7j6e_04]QWVU`<fYd2
+!i122 0
+l14
+L10 53
+VUnBiZOebmEX8Qa<48AX;Z3
+!s100 AW_kFn[=d0L47d?;dglRH0
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Etone_generator_tb
+Z14 w1666256698
+R3
+R4
+!i122 1
+R0
+Z15 8G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator_tb.vhd
+Z16 FG:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator_tb.vhd
+l0
+L4 1
+VVSic>8LnOWCWG80CmkC`D2
+!s100 RH5>LM?cFczn@U6I^i9i92
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator_tb.vhd|
+!s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator_tb.vhd|
+!i113 1
+R12
+R13
+Abhv
+R3
+R4
+DEx4 work 17 tone_generator_tb 0 22 VSic>8LnOWCWG80CmkC`D2
+!i122 1
+l16
+L7 13
+VAFU@M_5ZcTb7D`?a>AQVo3
+!s100 V^`^klo>Qi:E_fg9[d_[Z2
+R7
+31
+R8
+!i10b 1
+R9
+R17
+Z18 !s107 G:/My Drive/Insti Material/03. Sem 3/01. EE214/EE214_DigitalLab/01. Experiments/10. Experiment 10 - Tone Generator/10.1 ToneGen/tone_generator_tb.vhd|
+!i113 1
+R12
+R13

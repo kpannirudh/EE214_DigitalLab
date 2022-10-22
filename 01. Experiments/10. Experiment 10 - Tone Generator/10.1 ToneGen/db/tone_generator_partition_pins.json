@@ -1,0 +1,81 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED_out[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED_out[7]",
+					"strict" : false
+				},
+				{
+					"name" : "final_out",
+					"strict" : false
+				},
+				{
+					"name" : "switch[0]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[4]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[5]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[6]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[3]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[7]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[1]",
+					"strict" : false
+				},
+				{
+					"name" : "switch[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
